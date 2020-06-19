@@ -11,7 +11,7 @@
 		B6148290249BA04700CD0B74 /* InStatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614828F249BA04700CD0B74 /* InStatViewController.swift */; };
 		B6148295249BA04900CD0B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6148294249BA04900CD0B74 /* Assets.xcassets */; };
 		B61482A0249BA88000CD0B74 /* MatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614829F249BA88000CD0B74 /* MatchCollectionViewCell.swift */; };
-		B61482A4249BEF8700CD0B74 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B61482A3249BEEA000CD0B74 /* video.mp4 */; };
+		B67F8174249D512800FD2D1F /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B665ABA2249D505800440071 /* video.mp4 */; };
 		B687D421249CE59400A612C0 /* InStatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687D420249CE59400A612C0 /* InStatManager.swift */; };
 		B687D423249CF57600A612C0 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687D422249CF57600A612C0 /* VideoModel.swift */; };
 		B687D425249CFFAE00A612C0 /* InStatManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687D424249CFFAE00A612C0 /* InStatManagerProtocol.swift */; };
@@ -25,7 +25,7 @@
 		B6148294249BA04900CD0B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6148299249BA04900CD0B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B614829F249BA88000CD0B74 /* MatchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCollectionViewCell.swift; sourceTree = "<group>"; };
-		B61482A3249BEEA000CD0B74 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../Downloads/video.mp4; sourceTree = "<group>"; };
+		B665ABA2249D505800440071 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		B687D420249CE59400A612C0 /* InStatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InStatManager.swift; sourceTree = "<group>"; };
 		B687D422249CF57600A612C0 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		B687D424249CFFAE00A612C0 /* InStatManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InStatManagerProtocol.swift; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 		B614828C249BA04700CD0B74 /* InStat */ = {
 			isa = PBXGroup;
 			children = (
+				B665ABA2249D505800440071 /* video.mp4 */,
 				B614828D249BA04700CD0B74 /* AppDelegate.swift */,
 				B614829F249BA88000CD0B74 /* MatchCollectionViewCell.swift */,
 				B614828F249BA04700CD0B74 /* InStatViewController.swift */,
 				B687D429249D2E8500A612C0 /* Manager */,
-				B61482A3249BEEA000CD0B74 /* video.mp4 */,
 				B6148294249BA04900CD0B74 /* Assets.xcassets */,
 				B6148299249BA04900CD0B74 /* Info.plist */,
 			);
@@ -150,8 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B61482A4249BEF8700CD0B74 /* video.mp4 in Resources */,
 				B6148295249BA04900CD0B74 /* Assets.xcassets in Resources */,
+				B67F8174249D512800FD2D1F /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

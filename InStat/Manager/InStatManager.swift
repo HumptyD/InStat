@@ -13,11 +13,11 @@ final class InStatManager: InStatManagerProtocol {
 		return models.count
 	}
 
-	private var models: [VideoModel]
+	private var models: [VideoModelProtocol]
 
 	
 	init() {
-		let path = Bundle.main.path(forResource: "video", ofType:"mp4")
+		let path = Bundle.main.path(forResource: "video", ofType: "mp4")
 		let url = path.map { URL(fileURLWithPath: $0) }
 
 		let captions = [
@@ -39,7 +39,7 @@ final class InStatManager: InStatManagerProtocol {
 		]
 	}
 	
-	subscript(index: Int) -> VideoModel? {
+	subscript(index: Int) -> VideoModelProtocol? {
 		guard models.indices.contains(index) else { return nil }
 		return models[index]
 	}

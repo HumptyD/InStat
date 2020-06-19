@@ -9,5 +9,5 @@
 protocol InStatManagerProtocol: AnyObject {
 	var numberOfItems: Int { get }
 	
-	subscript(index: Int) -> VideoModel? { get }
+	subscript(index: Int) -> VideoModelProtocol? { get }
 }
